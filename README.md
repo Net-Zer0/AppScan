@@ -35,7 +35,7 @@ Inside the venv env you just created simply
 This was a tiny little poc heavily speed up with the help of llms in tracking malicous sites being hosted off github to help analyst track malware campaigns 
 
 ## Configurations
-Inside the script there are sections for setting keywords, your own regex and custom iocs or slugs in context of this script.
+Inside the script there are sections for setting keywords, your own regex and custom iocs or slugs in context of this script, futhermore there is also a section for changing how may results to seach per page and how many pages to search through.
 
 ## Output
 appscan will output all the scrapped queries and app sites into a .json file!
