@@ -7,7 +7,7 @@ import random
 import aiohttp
 from playwright.async_api import async_playwright
 from dotenv import load_dotenv
-# Copyright NZ0 Released under MIT
+# Copyright © 2026 NZ0. Released under the MIT License.
 load_dotenv()
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
