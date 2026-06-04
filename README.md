@@ -5,26 +5,28 @@ A helpful python tool for tracking SEO poisoning across google. In response to m
 
 
 ### Enviroment Setup
-python -m venv .venv
-source .venv/bin/activate
-create .env
-inside add
-GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxx
+`python -m venv .venv`
+`source .venv/bin/activate`
+create a .env file for storing you github token for api requests
+inside add this variable
+`GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxx`
+
+You can grab a token from heading to your profile and going to developer and select tokens and use a classic token with no permissions added. we simply need the token for queries to the github API for information on APPS.
 
 ### Installing Dependencies
-pip install aiohttp playwright python-dotenv
-playwright install chromium
+`pip install aiohttp playwright python-dotenv`
+`playwright install chromium`
 
 After installing these in the venv playright needs a browser and browser dependencies for your system, the commands below will help you with this!
 
 ### For apt based systems
-sudo playwright install-deps chromium
+`sudo playwright install-deps chromium`
 
 ### For RPM/DNF based systems
-sudo dnf install -y nss atk at-spi2-atk cups-libs libdrm gtk3 libXcomposite libXdamage libXfixes libXrandr mesa-libgbm pango alsa-lib
+`sudo dnf install -y nss atk at-spi2-atk cups-libs libdrm gtk3 libXcomposite libXdamage libXfixes libXrandr mesa-libgbm pango alsa-lib`
 
 ### Test the Install
-python -c "import aiohttp, dotenv, playwright; print('OK')"
+`python -c "import aiohttp, dotenv, playwright; print('OK')"`
 
 ### Running the Crawler
 Inside the venv env you just created simply
