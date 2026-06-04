@@ -1,5 +1,5 @@
 # AppScan
-![Running instance of appscan](AppScan/appscan-running.png)
+![Running instance of appscan](https://github.com/Net-Zer0/AppScan/blob/main/appscan-running.png?raw=true)
 
 A helpful python tool for tracking SEO poisoning across google. In response to malware being distrubuted via rouge github apps.
 
