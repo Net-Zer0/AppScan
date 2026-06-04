@@ -1,7 +1,8 @@
 # AppScan
+A helpful python tool for tracking SEO poisoning across google. In response to malware being distrubuted via rouge github apps.
 ![Running instance of appscan](https://github.com/Net-Zer0/AppScan/blob/main/appscan-running.png?raw=true)
 
-A helpful python tool for tracking SEO poisoning across google. In response to malware being distrubuted via rouge github apps.
+
 
 ### Enviroment Setup
 python -m venv .venv
@@ -33,3 +34,7 @@ This was a tiny little poc heavily speed up with the help of llms in tracking ma
 
 ## Configurations
 Inside the script there are sections for setting keywords, your own regex and custom iocs or slugs in context of this script.
+
+## Output
+appscan will output all the scrapped queries and app sites into a .json file!
+![Running instance of appscan]([https://github.com/Net-Zer0/AppScan/blob/main/appscan-running.png?raw=true](https://github.com/Net-Zer0/AppScan/blob/main/output-json.png?raw=true))
