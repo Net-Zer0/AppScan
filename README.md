@@ -1,6 +1,6 @@
 # AppScan
 
-A helpful Python tool for tracking SEO poisoning across Google. In response to malware being distributed via rogue GitHub apps, AppScan works by using a light headless browser through Playwright to query select keywords in a search engine. This allows it to crawl into these search results and fetch data on GitHub apps pushing malware.
+A helpful Python tool for tracking SEO poisoning across Google. In response to malware being distributed via rogue GitHub apps, AppScan works by using a light headless browser through Playwright to query select keywords in a search engine. This allows it to crawl into these search results and fetch data on GitHub apps pushing malware. It runs with a browser window to allow you to solve captchas presented by google to allow automated scanning.
 
 Furthermore, it is designed with modularity by allowing you to specify your own regex detections and search keywords within the script.
 
@@ -65,6 +65,7 @@ Inside the virtual environment you just created, simply run:
 ```bash
 python appscan.py
 ```
+You will more then likely encounter a captcha this is expected due to how google operates, playright will run in a windowed enviroment to allow you to solve this captcha and then go right into scrapping results.
 
 ---
 
