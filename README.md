@@ -23,7 +23,7 @@ sudo dnf install -y nss atk at-spi2-atk cups-libs libdrm gtk3 libXcomposite libX
 ### Test the Install
 python -c "import aiohttp, dotenv, playwright; print('OK')"
 
-### Running the Scrapper
+### Running the Crawler
 Inside the venv env you just created simply
 `python appscan.py`
 ### About
