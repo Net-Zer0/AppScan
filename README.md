@@ -1,5 +1,5 @@
 # AppScan
-A helpful python tool for tracking SEO poisoning across google. In response to malware being distrubuted via rouge github apps.
+A helpful python tool for tracking SEO poisoning across google. In response to malware being distrubuted via rouge github apps. appscan works by using a light headless browser through playright to query using select keywords in a search engine. This allow use to the crawl into these search results and fetch data on GitHub apps pushing malware. Furthermore it is designed with modularity. By allowing you to specify your own regex and detections within the script and search keywords. 
 ![Running instance of appscan](https://github.com/Net-Zer0/AppScan/blob/main/appscan-running.png?raw=true)
 
 
