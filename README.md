@@ -37,4 +37,4 @@ Inside the script there are sections for setting keywords, your own regex and cu
 
 ## Output
 appscan will output all the scrapped queries and app sites into a .json file!
-![Output from appscan]([https://github.com/Net-Zer0/AppScan/blob/main/appscan-running.png?raw=true](https://github.com/Net-Zer0/AppScan/blob/main/output-json.png?raw=true))
+![Output from appscan](https://github.com/Net-Zer0/AppScan/blob/main/output-json.png?raw=true)
